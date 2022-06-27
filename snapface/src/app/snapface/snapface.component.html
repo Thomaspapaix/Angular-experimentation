@@ -1,0 +1,10 @@
+<div class="Project">
+<h2>{{ Project.title }}</h2>
+<p>{{ Project.description }}</p>
+<img  [src]="Project.imageUrl" alt="Exemple"/>
+<p *ngIf="Project.dificulty">Difficulté: {{ Project.dificulty }}</p>
+<p>
+    <button (click)="onAddlike()">{{ button_text }}</button>
+    ❤️ {{ Project.like }}
+</p>
+</div>
