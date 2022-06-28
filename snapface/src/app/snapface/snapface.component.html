@@ -1,4 +1,4 @@
-<div class="Project">
+<div class="Project" [ngClass]="{ 'valid': button_text === 'Dislike' }">
 <h2>{{ Project.title }}</h2>
 <p>{{ Project.description }}</p>
 <img  [src]="Project.imageUrl" alt="Exemple"/>

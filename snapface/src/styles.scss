@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+h1 {
+    text-align: center;
+    font-family: monospace;
+    font-size: 60px;
+    text-decoration: underline; 
+    text-shadow: 5px 5px 1px rgb(0, 0, 0);
+    color: white;
+
+}
+body {
+    background: url("https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero.jpg") fixed no-repeat top right;
+}
